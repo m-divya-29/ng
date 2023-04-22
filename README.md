@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Assignments
+
+## 01
+1. Create two new Components (manually or with CLI): WarningAlert and SuccessAlert 
+2. Output them beneath each other in the AppComponent 
+3. Output a warning or success message in the Components 
+4. Style the Components appropriately (maybe some red/ green text?) 
+Use external or internal templates and styles! 
+Feel free to create more components, nest them into each other or play around with different types of selectors! 
