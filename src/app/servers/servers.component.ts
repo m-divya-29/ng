@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-servers',
-  template: `<p>Hello world!</p>
-            <app-server><app-server/>
-            <app-server><app-server/>`,
+  templateUrl: './servers.component.html',
 })
 export class ServersComponent {
-
+  username: string = "";
+  resetUserName(){
+    this.username = "";
+  }
 }
