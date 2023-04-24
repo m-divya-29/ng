@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 export class ServersComponent {
   allowNewServer = false;
   serverCreationStatus = 'No server created.';
-  serverName: string = '';
+  serverName: string = 'Server 01'; //in 2way binding, this works as default value of a html element
   
   constructor() {
     //this calls the callback after 2seconds, which sets variable = true
