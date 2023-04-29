@@ -1,6 +1,21 @@
 # MyFirstApp
 # Assignments
 
+## 03# #
+1. Add A button which says 'Display Details' 
+2. Add a paragraph with any content of your choice (e.g. 'Secret Password = tuna') 
+3. Toggle the displaying of that paragraph with the button created in the first step 
+4. Log all button clicks in an array and output that array below the secret paragraph (maybe log a timestamp or 
+simply an incrementing number) 
+5. Starting at the 5th log item, give all future log items a blue background (via ngStyIe) and white color 
+(ngClass) 
+### Take aways
+- *ngFor and *ngIf can add/remove elements to the DOM, ngClass and ngStyle  update styles dynamically to the existing elements on the DOM.
+- get index within *ngFor using index attribute( let i = index )
+- conditionals like ternary operators can be used within [ngStyle] and [ngCLass]
+
+
+
 ## 02# #
 1. Add a Input field which updates a property ('username') via Two-Way-Binding 
 2. Output the username property via String Interpolation (in a paragraph below the input) 
