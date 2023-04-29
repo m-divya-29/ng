@@ -11,12 +11,10 @@ import { Component } from '@angular/core';
 })
 export class ButtonComponentComponent {
   hideData = false;
-  counter = 0;
   buttonClicks = [];
   onDisplayDetails(){
     this.hideData = !this.hideData;
-    this.counter ++;
-    this.buttonClicks.push(this.counter)
+    this.buttonClicks.push(new Date())
     console.log(this.hideData)
   }
 }
