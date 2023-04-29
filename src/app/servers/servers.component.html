@@ -9,5 +9,4 @@ class="form-control"
 (click) = "onCreateServer()"> 
     Add new Server </button>
 <p *ngIf = "serverCreated">Server was created, server name: {{ serverName }}</p>
-<app-server></app-server>
-<app-server></app-server>
+<app-server *ngFor="let server of servers"></app-server>
